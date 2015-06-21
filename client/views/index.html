@@ -1,0 +1,75 @@
+<head>
+    <title>CV - Loïc Payol</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/foundation/5.0.2/css/foundation.min.css">
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/animate.css/3.1.0/animate.min.css">
+    <link rel="stylesheet" href="/styles/style.css">
+
+    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery.nicescroll/3.5.1/jquery.nicescroll.min.js"></script>
+    <script type="text/javascript" src="/js/jquery.queryloader2.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $("body").queryLoader2({
+                barColor: "#FFF",
+                backgroundColor: "#3D576F",
+                percentage: true,
+                barHeight: 1,
+                completeAnimation: "grow"
+            });
+        });
+    </script>
+
+</head>
+
+<body>
+    <header>
+        <div class="row clearfix text-center">
+            <h1 class="small-12 small-centered columns">
+                Loïc Payol<br>
+            </h1>
+            <h2>{{_ "layout.header.title" }}</h2>
+        </div>
+    </header>
+    <div class="contain-to-grid show-for-medium-up">
+        <nav class="top-bar" data-topbar="">
+            <section class="top-bar-section">
+                <ul class="left">
+                  <li><a href="#presentation">{{_ "layout.nav.presentation" }}</a></li>
+                  <li><a href="#diplomes">{{_ "layout.nav.degrees" }}</a></li>
+                  <li><a href="#competences">{{_ "layout.nav.skills" }}</a></li>
+                  <li><a href="#interets">{{_ "layout.nav.interests" }}</a></li>
+                  <li><a href="#projets">{{_ "layout.nav.projects" }}</a></li>
+                  <li><a href="#contact">{{_ "layout.nav.contact" }}</a></li>
+                </ul>
+                <ul class="right">
+                    <li data-lang="fr">
+                        <a>
+                            <img src="/images/blank.gif" class="flag flag-fr" alt="France" />
+                        </a>
+                    </li>
+                    <li data-lang="en">
+                        <a>
+                            <img src="/images/blank.gif" class="flag flag-gb" alt="United-Kingdom" />
+                        </a>
+                    </li>
+                </ul>
+              </section>
+          </nav>
+    </div>
+    <br>
+    <div id="container">
+        {{> portfolio }}
+    </div>
+    <footer class="row">
+        <div class="small-12 medium-6 small-centered columns">
+            <p class="text-center">{{_ "layout.footer.created_by" }}<br>
+            {{_ "layout.footer.propulsed_by" }}<br>
+            <a href="http://fontawesome.io">{{_ "layout.footer.font_awesome" }}</a></p>
+        </div>
+    </footer>
+</body>

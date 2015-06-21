@@ -1,0 +1,59 @@
+{
+  "cv": {
+    "presentation": {
+      "title": "Presentation",
+      "presentation": "My name is <strong>Loïc Payol</strong>, I'm __age__ year old, and I've been learning <strong>web development</strong> and more for __experience__ years. Curious, I'm always trying to learn more about existing technologies. Javascript, assembly, multimedia or programming on calculator, I explore all branches of computer sciences within my reach. I love <stong>work and share in team</strong> and my biggest passion is IT science.\n"
+    },
+    "degrees": {
+      "title": "Degrees",
+      "school_certificate": {
+        "name": "National school certificate",
+        "grade": "With honours"
+      },
+      "bachelor_degree": {
+        "name": "Scientific Baccalauréat (French secondary school diploma), mathematics speciality",
+        "grade": "With honours"
+      }
+    },
+    "skills": {
+      "title": "Skills",
+      "programming": {
+        "title": "Programming",
+        "web_dev": "Web development",
+        "soft_dev": "Software development"
+      },
+      "office": "Office",
+      "dev_env": "Development environments",
+      "multimedia": "Multimedia",
+      "languages": {
+        "title": "Languages",
+        "french": "French",
+        "english": "English",
+        "spanish": "Spanish"
+      }
+    },
+    "interests": {
+      "title": "Interests and activities",
+      "computers": {
+        "title": "IT sciences",
+        "desc": "It has been __experience__ years that I discovered programming and I will never get tired of it.\n"
+      },
+      "music": {
+        "title": "Music",
+        "desc": "I have been playing drums for 6 years, and I learn CAM, self-educated.\n"
+      },
+      "drawings": {
+        "title": "Drawing",
+        "desc": "I often take a paper, scribbling some landscapes"
+      }
+    },
+    "projects": {
+      "title": "Projects",
+      "lightapi": "A framework for light, fast and reliables websites with NodeJS.",
+      "ma": "Messages Anonymes, a chat platform to help each other completely anonymously. Work in progress, based on Symfony2.",
+      "minichat": "A tiny real-time chat powered by NodeJS, Socket.io and AngularJS.",
+      "hintbox": "Click on the thumbnails and check out the source code of each project !"
+    },
+    "contact": "Contact"
+  }
+}

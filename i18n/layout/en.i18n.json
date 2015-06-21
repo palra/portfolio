@@ -1,0 +1,20 @@
+{
+  "layout": {
+    "nav": {
+      "presentation": "Presentation",
+      "degrees": "Degrees",
+      "skills": "Skills",
+      "interests": "Interests and activities",
+      "projects": "Projects",
+      "contact": "Contact"
+    },
+    "header": {
+      "title": "University Technology Diploma in computer science - Work-study contract"
+    },
+    "footer": {
+      "created_by": "Created by Loïc Payol",
+      "font_awesome": "Font Awesome by {{ name }}",
+      "propulsed_by": "Powered by {{ engine }}"
+    }
+  }
+}
