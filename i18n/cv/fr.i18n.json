@@ -1,0 +1,58 @@
+{
+  "cv": {
+    "presentation": {
+      "title": "Présentation",
+      "presentation": "Je m'appelle <strong>Loïc Payol</strong>, j'ai __age__ ans, et cela fait __experience__ ans que j'apprends seul à <strong>développer des sites web</strong> ou encore à tester divers algorithmes en C. Je suis très curieux, alors naturellement je cherche à <i>toujours en savoir plus sur les technologies existantes</i>. De Javascript en passant par de l'assembleur, et du multimédia à la programmation sur calculatrice, j'explore toutes les branches de l'informatique qui sont à ma portée. J'aime <strong>travailler et partager en équipe</strong>, et ma plus grande passion est <strong>l'informatique</strong>.\n"
+    },
+    "degrees": {
+      "title": "Diplômes",
+      "school_certificate": {
+        "name": "Diplôme national du brevet",
+        "grade": "Mention bien"
+      },
+      "bachelor_degree": {
+        "name": "Baccalauréat général scientifique, spécialité mathématiques",
+        "grade": "Mention bien"
+      }
+    },
+    "skills": {
+      "title": "Compétences",
+      "programming": {
+        "title": "Programmation",
+        "web_dev": "Développement web",
+        "soft_dev": "Développement logiciel"
+      },
+      "office": "Bureautique",
+      "dev_env": "Environnements de développement",
+      "multimedia": "Multimédia",
+      "languages": {
+        "title": "Langues",
+        "english": "Anglais",
+        "spanish": "Espagnol"
+      }
+    },
+    "interests": {
+      "title": "Centre d'intérêts",
+      "computers": {
+        "title": "L'informatique",
+        "desc": "Cela plus de __experience__ ans que j'ai découvert l'univers du développement, et je suis pas prêt de m'en lasser."
+      },
+      "music": {
+        "title": "La musique",
+        "desc": "J'ai pris des cours de percussions pendant 6 ans, et j'apprends la MAO en autodidacte."
+      },
+      "drawings": {
+        "title": "Le dessin",
+        "desc": "Je prends souvent une feuille pour gribouiller quelques paysages."
+      }
+    },
+    "projects": {
+      "title": "Projets",
+      "lightapi": "Un framework pour créer des sites web légers et rapides avec NodeJS.",
+      "ma": "Messages Anonymes, un projet visant à s'entraider de manière totalement anonyme. En cours d'avancement, réalisé avec Symfony2.",
+      "minichat": "Un mini chat temps réel réalisé avec NodeJS, Socket.io et AngularJS.",
+      "hintbox": "Cliquez sur les images et accédez au code source des projets !"
+    },
+    "contact": "Contact"
+  }
+}

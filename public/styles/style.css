@@ -1,0 +1,580 @@
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400|Exo+2:400,300);
+
+* {
+	font-family: "Source Sans Pro", sans-serif;
+}
+
+#container {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: "Exo 2", sans-serif;
+	font-weight: 300;
+}
+
+hr {
+	border: solid #EEE;
+	border-width: 1px 0 0;
+}
+
+/*==============================
+=            Header            =
+==============================*/
+
+
+header {
+	background-image: url("../images/bg.png");
+	background-color: #3D576F;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+header h1 {
+	color: #EEE;
+	font-size: 3.5em;
+}
+
+header h2 {
+	color: #CCC;
+	font-size: 1.5em;
+}
+
+
+.contain-to-grid, .top-bar, .top-bar-section li a:not(.button) {
+	background-color: #34495E;
+}
+
+.top-bar-section li a:not(.button):hover {
+	background-color: #2C3E50;
+}
+
+/*-----  End of Header  ------*/
+@-webkit-keyframes boom {
+  0% {
+    left:0;
+    top:0;
+  }
+  5% {
+    left:-5px;
+    top: -3px;
+  }
+  10% {
+    left:3px;
+    top: 2px;
+  }
+  15% {
+    left:-1px;
+    top: 1px;
+  }
+  20% {
+    left:0;
+    top: 0;
+  }
+  100% {
+    left:0;
+    top:0;
+  }
+}
+
+@-o-keyframes boom {
+  0% {
+    left:0;
+    top:0;
+  }
+  5% {
+    left:-5px;
+    top: -3px;
+  }
+  10% {
+    left:3px;
+    top: 2px;
+  }
+  15% {
+    left:-1px;
+    top: 1px;
+  }
+  20% {
+    left:0;
+    top: 0;
+  }
+  100% {
+    left:0;
+    top:0;
+  }
+}
+
+@-ms-keyframes boom {
+  0% {
+    left:0;
+    top:0;
+  }
+  5% {
+    left:-5px;
+    top: -3px;
+  }
+  10% {
+    left:3px;
+    top: 2px;
+  }
+  15% {
+    left:-1px;
+    top: 1px;
+  }
+  20% {
+    left:0;
+    top: 0;
+  }
+  100% {
+    left:0;
+    top:0;
+  }
+}
+
+@keyframes pencil{
+  0% {
+    left:0;
+    top:0;
+    opacity:1;
+    transform:  rotate(0deg) scaleX(1) scaleY(1) ;
+  }
+  5% {
+    transform:  rotate(15deg) ;
+  }
+  11% {
+    transform:  rotate(-10deg) ;
+  }
+  18% {
+    transform:  rotate(0deg) ;
+  }
+  100% {
+    left:0;
+    top:0;
+    opacity:1;
+    transform:  rotate(0deg) scaleX(1) scaleY(1) ;
+  }
+}
+
+@-moz-keyframes pencil{
+  0% {
+    left:0;
+    top:0;
+    opacity:1;
+    -moz-transform:  rotate(0deg) scaleX(1) scaleY(1) ;
+  }
+  5% {
+    -moz-transform:  rotate(15deg) ;
+  }
+  11% {
+    -moz-transform:  rotate(-10deg) ;
+  }
+  18% {
+    -moz-transform:  rotate(0deg) ;
+  }
+  100% {
+    left:0;
+    top:0;
+    opacity:1;
+    -moz-transform:  rotate(0deg) scaleX(1) scaleY(1) ;
+  }
+}
+
+@-webkit-keyframes pencil {
+  0% {
+    left:0;
+    top:0;
+    opacity:1;
+    -webkit-transform:  rotate(0deg) scaleX(1) scaleY(1) ;
+  }
+  33% {
+    -webkit-transform:  rotate(15deg) ;
+  }
+  66% {
+    -webkit-transform:  rotate(-10deg) ;
+  }
+  99% {
+    -webkit-transform:  rotate(0deg) ;
+  }
+  100% {
+    left:0;
+    top:0;
+    opacity:1;
+    -webkit-transform:  rotate(0deg) scaleX(1) scaleY(1) ;
+  }
+}
+
+@-o-keyframes pencil {
+  0% {
+    left:0;
+    top:0;
+    opacity:1;
+    -o-transform:  rotate(0deg) scaleX(1) scaleY(1) ;
+  }
+  33% {
+    -o-transform:  rotate(15deg) ;
+  }
+  66% {
+    -o-transform:  rotate(-10deg) ;
+  }
+  99% {
+    -o-transform:  rotate(0deg) ;
+  }
+  100% {
+    left:0;
+    top:0;
+    opacity:1;
+    -o-transform:  rotate(0deg) scaleX(1) scaleY(1) ;
+  }
+}
+
+@-ms-keyframes pencil {
+  0% {
+    left:0;
+    top:0;
+    opacity:1;
+    -ms-transform:  rotate(0deg) scaleX(1) scaleY(1) ;
+  }
+  33% {
+    -ms-transform:  rotate(15deg) ;
+  }
+  66% {
+    -ms-transform:  rotate(-10deg) ;
+  }
+  99% {
+    -ms-transform:  rotate(0deg) ;
+  }
+  100% {
+    left:0
+    top:0px;
+    opacity:1;
+    -ms-transform:  rotate(0deg) scaleX(1) scaleY(1) ;
+  }
+}
+
+.fa-spin {
+  -webkit-animation-duration: 5s;
+  -moz-animation-duration: 5s;
+  -ms-animation-duration: 5s;
+  -o-animation-duration: 5s;
+}
+
+/*===============================
+=            Helpers            =
+===============================*/
+
+.pull-right {
+	text-align: right;
+}
+
+#diplomes article > h3:before {
+	font-family: "FontAwesome";
+	content: "\f05d";
+	margin-right: 7px;
+}
+
+#info:before {
+	font-family: "FontAwesome";
+	content: "\f121"; /* </> */
+	margin-right: 7px;
+
+  -webkit-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
+  -ms-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+
+}
+
+#info:hover:before {
+  -webkit-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
+  -ms-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+
+  -webkit-animation-direction: normal;
+  -webkit-animation-duration: 750ms;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-name: blink;
+  -webkit-animation-timing-function: ease-in-out;
+
+  -moz-animation-direction: normal;
+  -moz-animation-duration: 750ms;
+  -moz-animation-iteration-count: infinite;
+  -moz-animation-name: blink;
+  -moz-animation-timing-function: ease-in-out;
+}
+
+#music:before {
+	font-family: "FontAwesome";
+	content: "\f001"; /* ♫ */
+	margin-right: 7px;
+
+	position: relative;
+
+  -webkit-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
+  -ms-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+}
+
+#music:hover:before {
+  -webkit-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
+  -ms-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+
+  animation: boom linear 0.426s;
+  animation-iteration-count: infinite;
+  animation-fill-mode:forwards; /*when the spec is finished*/
+  -webkit-animation: boom linear 0.426s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-fill-mode:forwards; /*Chrome 16+, Safari 4+*/
+  -moz-animation: boom linear 0.426s;
+  -moz-animation-iteration-count: infinite;
+  -moz-animation-fill-mode:forwards; /*FF 5+*/
+  -o-animation: boom linear 0.426s;
+  -o-animation-iteration-count: infinite;
+  -o-animation-fill-mode:forwards; /*Not implemented yet*/
+  -ms-animation: boom linear 0.426s;
+  -ms-animation-iteration-count: infinite;
+  -ms-animation-fill-mode:forwards; /*IE 10+*/
+}
+
+#draw:before {
+	font-family: "FontAwesome";
+	content: "\f040"; /* ✎ */
+	margin-right: 7px;
+
+  -webkit-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
+  -ms-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+}
+
+#draw:hover:before {
+  -webkit-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
+  -ms-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+
+  animation: pencil ease 1s;
+  animation-iteration-count: infinite;
+  transform-origin: 100% 0%;
+  -webkit-animation: pencil ease 1s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-transform-origin: 100% 0%;
+  -moz-animation: pencil ease 1s;
+  -moz-animation-iteration-count: infinite;
+  -moz-transform-origin: 100% 0%;
+  -o-animation: pencil ease 1s;
+  -o-animation-iteration-count: infinite;
+  -o-transform-origin: 100% 0%;
+  -ms-animation: pencil ease 1s;
+  -ms-animation-iteration-count: infinite;
+  -ms-transform-origin: 100% 0%;
+}
+
+/*-----  End of Helpers  ------*/
+
+#quotes .fa-quote-left {
+	position: relative;
+	top: 0;
+	right: 0;
+	-webkit-transition: all 750ms ease;
+	-moz-transition: all 750ms ease;
+	-ms-transition: all 750ms ease;
+	-o-transition: all 750ms ease;
+	transition: all 750ms ease;
+
+    -webkit-animation-direction: normal;
+    -webkit-animation-duration: 750ms;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-name: float;
+    -webkit-animation-timing-function: ease-in-out;
+
+	-moz-animation-direction: normal;
+    -moz-animation-duration: 750ms;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-name: float;
+    -moz-animation-timing-function: ease-in-out;
+}
+#quotes:hover .fa-quote-left {
+	-webkit-transition: all 750ms ease;
+	-moz-transition: all 750ms ease;
+	-ms-transition: all 750ms ease;
+	-o-transition: all 750ms ease;
+	transition: all 750ms ease;
+	position: relative;
+	top: 55px;
+	right: 25px;
+}
+
+#quotes .fa-quote-right {
+	-webkit-transition: all 750ms ease;
+	-moz-transition: all 750ms ease;
+	-ms-transition: all 750ms ease;
+	-o-transition: all 750ms ease;
+	transition: all 750ms ease;
+	position: relative;
+	bottom: 115px;
+	left: 45px;
+	opacity: 0.4;
+}
+
+#quotes:hover .fa-quote-right {
+	-webkit-transition: all 750ms ease;
+	-moz-transition: all 750ms ease;
+	-ms-transition: all 750ms ease;
+	-o-transition: all 750ms ease;
+	transition: all 750ms ease;
+	position: relative;
+	bottom: 175px;
+	left: 55px;
+	opacity: 0.4;
+}
+
+#certificate .fa-certificate {
+	-webkit-transition: all 750ms ease;
+	-moz-transition: all 750ms ease;
+	-ms-transition: all 750ms ease;
+	-o-transition: all 750ms ease;
+	transition: all 750ms ease;
+}
+
+#certificate:hover .fa-certificate {
+	-webkit-transition: all 750ms ease;
+	-moz-transition: all 750ms ease;
+	-ms-transition: all 750ms ease;
+	-o-transition: all 750ms ease;
+	transition: all 750ms ease;
+	-moz-transform: scale(1.3) rotate(90deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg);
+	-webkit-transform: scale(1.3) rotate(90deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg);
+	-o-transform: scale(1.3) rotate(90deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg);
+	-ms-transform: scale(1.3) rotate(90deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg);
+	transform: scale(1.3) rotate(90deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg);
+}
+
+#certificate .fa-check {
+	-webkit-transition: all 750ms ease;
+	-moz-transition: all 750ms ease;
+	-ms-transition: all 750ms ease;
+	-o-transition: all 750ms ease;
+	transition: all 750ms ease;
+}
+
+#certificate:hover .fa-check {
+	-webkit-transition: all 750ms ease;
+	-moz-transition: all 750ms ease;
+	-ms-transition: all 750ms ease;
+	-o-transition: all 750ms ease;
+	transition: all 750ms ease;
+	-moz-transform: scale(1.1) rotate(-15deg) translateX(0px) translateY(0px) skewX(-15deg) skewY(0deg);
+	-webkit-transform: scale(1.1) rotate(-15deg) translateX(0px) translateY(0px) skewX(-15deg) skewY(0deg);
+	-o-transform: scale(1.1) rotate(-15deg) translateX(0px) translateY(0px) skewX(-15deg) skewY(0deg);
+	-ms-transform: scale(1.1) rotate(-15deg) translateX(0px) translateY(0px) skewX(-15deg) skewY(0deg);
+	transform: scale(1.1) rotate(-15deg) translateX(0px) translateY(0px) skewX(-15deg) skewY(0deg);
+}
+
+@-webkit-keyframes blink {
+    0% {
+        opacity:1;
+    }
+    50% {
+        opacity:0;
+    }
+    100% {
+        opacity:1;
+    }
+}
+
+@-moz-keyframes blink {
+    0% {
+        opacity:1;
+    }
+    50% {
+        opacity:0;
+    }
+    100% {
+        opacity:1;
+    }
+}
+@-o-keyframes blink {
+    0% {
+        opacity:1;
+    }
+    50% {
+        opacity:0;
+    }
+    100% {
+        opacity:1;
+    }
+}
+
+#skills .fa-terminal {
+	-webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    -ms-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+
+    -webkit-animation-direction: normal;
+    -webkit-animation-duration: 750ms;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-name: blink;
+    -webkit-animation-timing-function: ease-in-out;
+
+	-moz-animation-direction: normal;
+    -moz-animation-duration: 750ms;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-name: blink;
+    -moz-animation-timing-function: ease-in-out;
+}
+
+.flag {
+	width: 16px;
+	height: 11px;
+	background:url("../images/flags.png") no-repeat
+}
+
+.flag.flag-fr {background-position: -16px 0}
+.flag.flag-gb {background-position: 0 -11px}
+
+.fa-stack.fa-5x {
+	height: 165px;
+}
+
+
+#content {
+	display: none;
+}
+
+.abs-centered {
+	margin: auto;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	top: 0;
+	right: 0;
+}
+
+#wait {
+	width: 100%;
+	height: 100%;
+}
+
+#wait div {
+	width: 100%;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+#wait div i {
+	width: 80px;
+	height: 70px;
+}

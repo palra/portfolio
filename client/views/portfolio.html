@@ -1,0 +1,198 @@
+<template name="portfolio">
+    <section class="row">
+        <figure class="small-4 large-3 columns show-for-large-up small-block-grid-1">
+            <span class="fa-stack fa-lg fa-5x" style="height: 220px;" id="quotes">
+                <i class="fa fa-quote-left fa-2x"></i>
+                <i class="fa fa-quote-right fa-2x"></i>
+            </span>
+        </figure>
+        <div class="small-12 large-8 large-offset-3">
+            <h1 id="presentation">{{_ "cv.presentation.title" }}</h1>
+            <p>{{{_ "cv.presentation.presentation" age=age experience=experience }}}</p>
+        </div>
+    </section>
+    <hr>
+    <section class="row">
+        <div class="small-12 large-8 columns">
+            <section class="row" id="diplomes">
+                <h1>{{_ "cv.degrees.title" }}</h1>
+                <article>
+                    <h3>{{_ "cv.degrees.bachelor_degree.name" }} - 2014</h3>
+                    <p>{{_ "cv.degrees.bachelor_degree.grade" }}</p>
+                </article>
+                <article>
+                    <h3>{{_ "cv.degrees.school_certificate.name" }} - 2011</h3>
+                    <p>{{_ "cv.degrees.school_certificate.grade" }}</p>
+                </article>
+            </section>
+        </div>
+        <figure class="small-4 large-3 columns show-for-large-up small-block-grid-1">
+            <span class="fa-stack fa-lg fa-5x" id="certificate">
+                <i class="fa fa-certificate fa-stack-2x fa-spin"></i>
+                <i class="fa fa-check fa-stack-1x" style="color: #FFF"></i>
+            </span>
+        </figure>
+    </section>
+    <hr>
+    <section class="row">
+        <div class="small-2 large-2 columns show-for-large-up small-block-grid-1">
+            <figure class="fa-stack fa-lg fa-5x" id="skills">
+                <i class="fa fa-desktop fa-stack-2x"></i>
+                <i class="fa fa-terminal fa-stack-1x" style="font-size: 0.3em; position: relative; bottom: 77px; left: -52px;"></i>
+            </figure>
+        </div>
+        <div class="small-12 large-9 large-offset-1 columns">
+            <div class="row">
+                <h1 id="competences">{{_ "cv.skills.title" }}</h1>
+                <div class="small-12 medium-6 columns">
+                    <ul class="fa-ul">
+                        <h3>{{_ "cv.skills.programming.title" }}</h3>
+                        <h4><i>{{_ "cv.skills.programming.web_dev" }}</i></h4>
+                        <li>
+                            <span><i class="fa fa-star"></i> HTML5</span>
+                        </li>
+                        <li>
+                            <span><i class="fa fa-star"></i> CSS3</span>
+                        </li>
+                        <li>
+                            <span><i class="fa fa-star"></i> Javascript</span>
+                        </li>
+                        <li>
+                            <span><i class="fa fa-star"></i> Node.js</span>
+                        </li>
+                        <li>
+                            <span><i class="fa fa-star"></i> PHP</span>
+                        </li>
+                        <li>
+                            <span><i class="fa fa-star-half-o"></i> MySQL</span>
+                        </li>
+                        <h4><i>{{_ "cv.skills.programming.soft_dev" }}</i></h4>
+                        <li>
+                            <span><i class="fa fa-star-half-o"></i> C/C++</span>
+                        </li>
+                        <li>
+                            <span><i class="fa fa-star-o"></i> C#</span>
+                        </li>
+                        <li>
+                            <span><i class="fa fa-star-o"></i> Java</span>
+                        </li>
+                        <li>
+                            <span><i class="fa fa-star-o"></i> Unity 3D</span>
+                        </li>
+                    </ul>
+                    <ul class="fa-ul">
+                        <h3>{{_ "cv.skills.office" }}</h3>
+                        <li>
+                            <span><i class="fa fa-star"></i> Word</span>
+                        </li>
+                        <li>
+                            <span><i class="fa fa-star"></i> Excel</span>
+                        </li>
+                        <li>
+                            <span><i class="fa fa-star-half-o"></i> PowerPoint</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="small-12 medium-6 columns">
+                    <ul class="fa-ul">
+                        <h3>{{_ "cv.skills.dev_env" }}</h3>
+                        <li>
+                            <span><i class="fa fa-star"></i> Linux</span>
+                        </li>
+                        <li>
+                            <span><i class="fa fa-star-half-o"></i> Windows</span>
+                        </li>
+                        <li>
+                            <span><i class="fa fa-star-o"></i> Git</span>
+                        </li>
+                    </ul>
+                    <ul class="fa-ul">
+                        <h3>{{_ "cv.skills.multimedia" }}</h3>
+                        <li>
+                            <span><i class="fa fa-star"></i> FL Studio</span>
+                        </li>
+                        <li>
+                            <span><i class="fa fa-star-o"></i> Blender</span>
+                        </li>
+                        <li>
+                            <span><i class="fa fa-star-o"></i> Photoshop</span>
+                        </li>
+                        <li>
+                            <span><i class="fa fa-star-o"></i> Illustrator</span>
+                        </li>
+                    </ul>
+                    <ul class="fa-ul">
+                        <h3>{{_ "cv.skills.languages.title" }}</h3>
+                        <li>
+                            <span><i class="fa fa-star"></i> {{_ "cv.skills.languages.english" }}</span>
+                        </li>
+                        <li>
+                            <span><i class="fa fa-star-half-o"></i> {{_ "cv.skills.languages.spanish" }}</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <hr>
+    <section class="row">
+        <h1 id="interets">{{_ "cv.interests.title" }}</h1>
+        <ul class="small-block-grid-1 medium-block-grid-3">
+            <li>
+                <h3 id="info">{{_ "cv.interests.computers.title" }}</h3>
+                <p>{{_ "cv.interests.computers.desc" experience=experience }}</p>
+            </li>
+            <li>
+                <h3 id="music">{{_ "cv.interests.music.title" }}</h3>
+                <p>{{_ "cv.interests.music.desc" }}</p>
+            </li>
+            <li>
+                <h3 id="draw">{{_ "cv.interests.drawings.title" }}</h3>
+                <p>{{_ "cv.interests.drawings.desc" }}</p>
+            </li>
+        </ul>
+    </section>
+    <hr>
+    <section class="row">
+        <h1 id="projets">{{_ "cv.projects.title" }}</h1>
+        <ul class="small-block-grid-1 medium-block-grid-2 large-block-grid-3">
+            <li>
+                <figure class="text-center">
+                    <a href="https://github.com/palra/lightapi" target="blank">
+                        <img src="/images/lightapi.png" alt="LightAPI" class="th" />
+                    </a>
+                    <figcaption><br>{{_ "cv.projects.lightapi" }}</figcaption>
+                </figure>
+            </li>
+            <li>
+                <figure class="text-center">
+                    <a href="https://github.com/palra/messages_anonymes" target="blank">
+                        <img src="/images/macover.png" alt="Messages Anonymes" class="th" />
+                    </a>
+                    <figcaption><br>{{_ "cv.projects.ma" }}</figcaption>
+                </figure>
+            </li>
+            <li>
+                <figure class="text-center">
+                    <a href="https://github.com/palra/minichat" target="blank">
+                        <i class="fa fa-comments-o fa-5x"></i>
+                    </a>
+                    <figcaption><br>{{_ "cv.projects.minichat" }}</figcaption>
+                </figure>
+            </li>
+        </ul>
+        <div class="alert-box text-center">
+            <i class="fa fa-info-circle"></i> {{_ "cv.projects.hintbox" }}
+        </div>
+    </section>
+    <hr>
+    <section class="row">
+        <h1 id="contact" class="text-center">{{_ "cv.contact" }}</h1>
+        <div class="small-12 large-4 large-offset-4 large-centered panel">
+            <ul class="no-bullet text-center">
+                <li><strong>Loïc Payol</strong></li>
+                <li>loicpayol (at) gmail.com</li>
+            </ul>
+        </div>
+    </section>
+</template>

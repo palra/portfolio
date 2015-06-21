@@ -1,0 +1,20 @@
+{
+  "layout": {
+    "nav": {
+      "presentation": "Présentation",
+      "degrees": "Diplômes",
+      "skills": "Compétences",
+      "interests": "Centres d'intérêts",
+      "projects": "Projets",
+      "contact": "Contact"
+    },
+    "header": {
+      "title": "DUT Informatique - Contrat d'alternance"
+    },
+    "footer": {
+      "created_by": "Crée par Loïc Payol",
+      "font_awesome": "Font Awesome par {{ name }}",
+      "propulsed_by": "Propulsé par {{ engine }}"
+    }
+  }
+}
