@@ -4,6 +4,17 @@
       "title": "Presentation",
       "presentation": "My name is <strong>Loïc Payol</strong>, I'm __age__ year old, and I've been learning <strong>web development</strong> and more for __experience__ years. Curious, I'm always trying to learn more about existing technologies. Javascript, assembly, multimedia or programming on calculator, I explore all branches of computer sciences within my reach. I love <stong>work and share in team</strong> and my biggest passion is IT science.\n"
     },
+    "experience": {
+      "title": "Professional experience",
+      "flightsafety": {
+        "name": "FlightSafety International, Le Bourget - 2014 (two years)",
+        "desc": "System adinistration on Windows Server 2003, development of an intranet with Symfony2 and IT support operations"
+      },
+      "forum": {
+        "name": "Theater of Blanc-Mesnil (France), 2009 (one week)",
+        "desc": "Observation training : distribution of advertising leaflets, introduction to the setup of a stage for a concert"
+      }
+    },
     "degrees": {
       "title": "Degrees",
       "school_certificate": {
@@ -52,7 +63,8 @@
       "lightapi": "A framework for light, fast and reliables websites with NodeJS.",
       "ma": "Messages Anonymes, a chat platform to help each other completely anonymously. Work in progress, based on Symfony2.",
       "minichat": "A tiny real-time chat powered by NodeJS, Socket.io and AngularJS.",
-      "hintbox": "Click on the thumbnails and check out the source code of each project !"
+      "hintbox": "Click on the thumbnails and check out the source code of each project !",
+      "github": "Follow me on Github"
     },
     "contact": "Contact"
   }

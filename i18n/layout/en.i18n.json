@@ -13,8 +13,8 @@
     },
     "footer": {
       "created_by": "Created by Loïc Payol",
-      "font_awesome": "Font Awesome by {{ name }}",
-      "propulsed_by": "Powered by {{ engine }}"
+      "font_awesome": "Font Awesome by __name__",
+      "propulsed_by": "Powered by __engine__"
     }
   }
 }
